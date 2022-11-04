@@ -11,19 +11,20 @@ p zoo
 
 # Write code that prints all of the 'keys' of the foods variable 
 # you created above:
-# YOUR CODE HERE
+ puts "#{foods.keys}"
 
 # Write code that prints all of the 'values' of the foods variable 
 # you created above:
-# YOUR CODE HERE
+ puts "#{foods.value}"
 
 # Write code that prints the value of the second food of the foods variable 
 # you created above:
-# YOUR CODE HERE
+ puts "#{foods.value[2]}"
 
 # Write code that adds a food to the foods hash. 
 # Then, print the updated hash:
-# YOUR CODE HERE
+foods.store(:carrot, 77)
+puts foods
 
 
 #-------------------
@@ -38,15 +39,16 @@ p zoo
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
-
+email = {"inbox": 684,"spam": 128,"started": 2,"important": 57,"trash": 134}
+puts email
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
-# YOUR CODE HERE
+puts "#{email.keys}"
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
-# YOUR CODE HERE
+ puts "#{email.values}"
 
 
 #-------------------
@@ -97,3 +99,8 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+email1 = {"inbox": 684,"spam": 128,"started": 2,"important": 57,"trash": 134}
+email2 = {"inbox": 873,"spam": 238,"started": 2,"important": 93,"trash": 284}
+email3 = {"inbox": 568,"spam": 101,"started": 7,"important": 67,"trash": 92}
+work_emails = ["email1", "email2", "email3"]
+puts work_emails 
